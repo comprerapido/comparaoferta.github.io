@@ -1,0 +1,18 @@
+[
+  {
+    "id": "MLBcasa1",
+    "title": "Produto de Exemplo Casa 1",
+    "price": 199.9,
+    "permalink": "https://www.mercadolivre.com.br",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_614131-MLB44622340767_012021-O.webp",
+    "condition": "new"
+  },
+  {
+    "id": "MLBcasa2",
+    "title": "Produto de Exemplo Casa 2",
+    "price": 450.0,
+    "permalink": "https://www.mercadolivre.com.br",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_614131-MLB44622340767_012021-O.webp",
+    "condition": "new"
+  }
+]

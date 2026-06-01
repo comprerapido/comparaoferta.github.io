@@ -1,0 +1,79 @@
+{
+  "robo_numero": 3,
+  "nome_site": "Compara Ofertas",
+  "url_base": "https://comparaoferta.github.io",
+  "descricao": "As melhores ofertas em Casa, Games, TV, Celular e Moda do Mercado Livre",
+  "categorias": [
+    {
+      "id": "casa",
+      "nome": "Casa",
+      "descricao": "Móveis, decoração, cozinha e utensílios para casa",
+      "keywords": ["móveis", "decoração", "cozinha", "utensílios", "casa"],
+      "ml_filters": ["category:home-garden"]
+    },
+    {
+      "id": "games",
+      "nome": "Games",
+      "descricao": "Consoles, jogos, acessórios e periféricos para gaming",
+      "keywords": ["console", "videogame", "PS5", "Xbox", "Nintendo", "jogos"],
+      "ml_filters": ["category:video-games"]
+    },
+    {
+      "id": "tv-video",
+      "nome": "TV e Vídeo",
+      "descricao": "Televisores, projetores, home theater e acessórios audiovisuais",
+      "keywords": ["TV", "televisor", "4K", "smart TV", "projetor", "home theater"],
+      "ml_filters": ["category:televisions"]
+    },
+    {
+      "id": "celular",
+      "nome": "Celular",
+      "descricao": "Smartphones, acessórios e tecnologia móvel",
+      "keywords": ["celular", "smartphone", "iPhone", "Samsung", "Xiaomi", "5G"],
+      "ml_filters": ["category:mobile-phones"]
+    },
+    {
+      "id": "moda",
+      "nome": "Moda",
+      "descricao": "Roupas, calçados, acessórios e moda em geral",
+      "keywords": ["roupa", "calçado", "moda", "bolsa", "acessório", "vestuário"],
+      "ml_filters": ["category:clothing"]
+    }
+  ],
+  "configuracoes_tecnicas": {
+    "linguagem": "pt-BR",
+    "moeda": "BRL",
+    "timezone": "America/Sao_Paulo",
+    "atualizacao_horaria": true,
+    "frequencia_atualizacao_horas": 1,
+    "limite_produtos_por_categoria": 50,
+    "limite_posts_blog_por_dia": 3,
+    "sitemap_automatico": true
+  },
+  "configuracoes_adsense": {
+    "publisher_id": "ca-pub-XXXXXXX",
+    "schema_markup": true,
+    "open_graph_tags": true,
+    "canonical_tags": true,
+    "alt_tags": true,
+    "breadcrumbs": true,
+    "estrutura_seo": "otimizada"
+  },
+  "configuracoes_afiliados": {
+    "programa": "Mercado Livre Afiliados",
+    "comissao_media": "8%",
+    "categorias_alta_comissao": ["games", "casa", "tv-video"],
+    "rastreamento": "utm_source=comparaoferta&utm_medium=afiliado"
+  },
+  "estrutura_arquivos": {
+    "index": "index.html",
+    "categorias": "categorias/",
+    "ofertas": "ofertas/",
+    "blog": "noticias/",
+    "posts": "noticias/posts/",
+    "paginas_legais": ["privacidade/", "termos/", "sobre/", "contato/"],
+    "assets": "assets/",
+    "scripts": "scripts/",
+    "data": "data/"
+  }
+}
